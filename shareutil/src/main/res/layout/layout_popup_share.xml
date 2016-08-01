@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_f5f5f5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical|left"
+        android:text="分享至:" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_share"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"></android.support.v4.view.ViewPager>
+</LinearLayout>
